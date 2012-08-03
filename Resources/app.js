@@ -8,7 +8,7 @@ var leftMenu	= Ti.UI.createWindow({
 	width: 250,
 	zIndex: 1	
 });
-var data = [{title:"Row 1"},{title:"Row 2"},{title:"Row 3"},{title:"Row 4"}];
+var data = [{title:"Row 1"},{title:"Row 2"},{title:"Row 3"},{title:"Row 4"},{title:"Row 5"},{title:"Row 6"},{title:"Row 7"},{title:"Row 8"},{title:"Row 9"},{title:"Row 10"},{title:"Row 11"},{title:"Row 12"},{title:"Row 13"},{title:"Row 14"},{title:"Row 15"},{title:"Row 16"}];
 var tableView	= Ti.UI.createTableView({ data: data });
 leftMenu.add(tableView);
 leftMenu.open();
